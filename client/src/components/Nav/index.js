@@ -1,6 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import pricelesslogo from "C:/Users/HP/Desktop/pricelesschemist/client/src/assets/pricelesslogo.jpg";
 
 function Nav() {
 
@@ -43,7 +44,7 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="shopping bag">🛍️</span>
+          <span role="img" aria-label="shopping bag"><img src={pricelesslogo} alt ="website logo"/></span>
           Priceless Compounding Chemist
         </Link>
       </h1>

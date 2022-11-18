@@ -26,15 +26,7 @@ db.once('open', async () => {
       price: 4.99,
       quantity: 500
     },
-    {
-      name: 'Codral S3',
-      description:
-        'codral cold and flu s3',
-      image: 'codralS3.jpg',
-      category: categories[0]._id,
-      price: 1.99,
-      quantity: 500
-    },
+    
     {
       name: 'Toilet Paper',
       category: categories[1]._id,
